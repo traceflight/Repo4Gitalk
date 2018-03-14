@@ -69,6 +69,7 @@ into the {body} of the default.hbs template --}}
                 {{/author}}
             </footer>
 
+            {{!-- Gitalk comment component --}}
             <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">            
             <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
             <div id="gitalk-container"></div>
@@ -151,7 +152,7 @@ into the {body} of the default.hbs template --}}
                         </ul>
                     </div>
                     <footer class="read-next-card-footer">
-                        <a href="{{#../primary_tag}}{{url}}{{/../primary_tag}}">{{plural meta.pagination.total empty='No posts' singular='% post' plural='See all % posts'}} �?/a>
+                        <a href="{{#../primary_tag}}{{url}}{{/../primary_tag}}">{{plural meta.pagination.total empty='No posts' singular='% post' plural='See all % posts'}} â†?/a>
                     </footer>
                 </article>
                 {{/if}}
